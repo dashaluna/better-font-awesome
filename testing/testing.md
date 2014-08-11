@@ -1,6 +1,6 @@
 # Testing Better Font Awesome #
 
-Install the `testing` branch via:
+Install the `testing` branch in your local plugins folder via:
 ```
 git clone --recursive https://github.com/MickeyKay/better-font-awesome/tree/testing
 ```
@@ -33,7 +33,7 @@ Below are various [steps](https://github.com/MickeyKay/better-font-awesome/blob/
 ## Testing Steps ##
 
 ### Installation ###
-Clone the repo into your dev plugins folder using the following command (the `--recursive` part is to ensure you grab the included [Git Submodule](http://git-scm.com/book/en/Git-Tools-Submodules)):
+Clone the repo into your dev plugins folder using the following command (the `--recursive` part is to ensure you grab the included [Git submodules](http://git-scm.com/book/en/Git-Tools-Submodules)):
 ```
 git clone --recursive https://github.com/MickeyKay/better-font-awesome/tree/testing
 ```
