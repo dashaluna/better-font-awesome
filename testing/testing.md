@@ -1,6 +1,9 @@
 # Testing Better Font Awesome #
 
-**Download:** [Better Font Awesome v0.10.0.beta](https://github.com/MickeyKay/better-font-awesome/blob/master/testing/better-font-awesome-0.10.0.beta.zip?raw=true)
+Install via:
+```
+git clone --recursive https://github.com/MickeyKay/better-font-awesome/tree/testing
+```
 
 ## Intro ##
 First of all, if you've made it here, thanks for your help! It makes a HUGE difference to have real-life users like yourself put software through the ringer. So thanks!
@@ -28,8 +31,12 @@ Below are various [steps](https://github.com/MickeyKay/better-font-awesome/blob/
 **Note:** While Better Font Awesome has already undergone extensive testing to make it to this point, there is no guarantee that it doesn't contain errors. With your help, we can make that guarantee as close to 100% as possible, but in the meantime please use this testing version accordingly.
 
 ## Testing Steps ##
-To get started with testing, first download the most recent version of Better Font Awesome and install it on your local/dev install of WordPress:
-* [Better Font Awesome v0.10.0.beta](https://github.com/MickeyKay/better-font-awesome/blob/master/testing/better-font-awesome-0.10.0.beta.zip?raw=true)
+
+### Installation ###
+Clone the repo into your dev plugins folder using the following command (the `--recursive` part is to ensure you grab the included [Git Submodule](http://git-scm.com/book/en/Git-Tools-Submodules)):
+```
+git clone --recursive https://github.com/MickeyKay/better-font-awesome/tree/testing
+```
 
 ### Basic Testing ###
 Now you're ready to test. In fact, you've already started the testing process! To complete basic testing, please do the following:

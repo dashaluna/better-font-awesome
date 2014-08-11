@@ -19,6 +19,7 @@
  * Text Domain:       bfa
  * Domain Path:       /languages
  * GitHub Plugin URI: https://github.com/MickeyKay/better-font-awesome
+ * GitHub Branch:     testing
  */
 
 //register_activation_hook( __FILE__, array( 'Better_Font_Awesome_Plugin', 'activation_check' ) );
