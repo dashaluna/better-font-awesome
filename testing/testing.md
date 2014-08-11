@@ -1,6 +1,6 @@
 # Testing Better Font Awesome #
 
-Install via:
+Install the `testing` branch via:
 ```
 git clone --recursive https://github.com/MickeyKay/better-font-awesome/tree/testing
 ```
