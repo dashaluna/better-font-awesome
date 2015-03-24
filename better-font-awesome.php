@@ -551,7 +551,15 @@ class Better_Font_Awesome_Plugin {
                     '<h3>' . esc_html__( 'Usage', 'better-font-awesome' ) . '</h3>' .
                     sprintf(
 	                    esc_html__(
-		                    'Font Awesome version 4.x + %s See all available options %s',
+		                    '%sFont Awesome version %s',
+		                    'better-font-awesome'
+	                    ),
+	                    '<b>',
+	                    '4.x +</b>'
+                    ) .
+                    sprintf(
+	                    esc_html__(
+		                    '%sSee all available options %s',
 		                    'better-font-awesome'
 	                    ),
 	                    '&nbsp;&nbsp;&nbsp;<small><a href="http://fontawesome.io/examples/">',
@@ -572,7 +580,15 @@ class Better_Font_Awesome_Plugin {
                     ) .
                     sprintf(
 	                    esc_html__(
-		                    'Font Awesome version 3.x %s See all available options %s',
+		                    '%sFont Awesome version %s',
+		                    'better-font-awesome'
+	                    ),
+	                    '<b>',
+	                    '3.x</b>'
+                    ) .
+                    sprintf(
+	                    esc_html__(
+		                    '%sSee all available options %s',
 		                    'better-font-awesome'
 	                    ),
 	                    '&nbsp;&nbsp;&nbsp;<small><a href="http://fontawesome.io/3.2.1/examples/">',
