@@ -558,9 +558,9 @@ class Better_Font_Awesome_Plugin {
 	                    '&raquo;</a></small><br/><br/>'
                     ) .
                     sprintf(
-	                    '<i class="icon-%$1s fa fa-%$1s"></i> <code>[icon name="%$1s"]</code> %$2s <code>&lt;i class="fa-%$1s"&gt;&lt;/i&gt;</code><br /><br />' .
-	                    '<i class="icon-%$1s fa fa-%$1s icon-2x fa-2x"></i> <code>[icon name="%$1s" class="fa-2x"]</code> %$2s <code>&lt;i class="fa-%$1s fa-2x"&gt;&lt;/i&gt;</code><br /><br />' .
-	                    '<i class="icon-%$1s fa fa-%$1s icon-2x fa-2x icon-rotate-90 fa-rotate-90"></i> <code>[icon name="%$1s" class="fa-2x fa-rotate-90"]</code> %$2s <code>&lt;i class="fa-%$1s fa-2x fa-rotate-90"&gt;&lt;/i&gt;</code><br /><br /><br />',
+	                    '<i class="icon-%1$s fa fa-%1$s"></i> <code>[icon name="%1$s"]</code> %2$s <code>&lt;i class="fa-%1$s"&gt;&lt;/i&gt;</code><br /><br />' .
+	                    '<i class="icon-%1$s fa fa-%1$s icon-2x fa-2x"></i> <code>[icon name="%1$s" class="fa-2x"]</code> %2$s <code>&lt;i class="fa-%1$s fa-2x"&gt;&lt;/i&gt;</code><br /><br />' .
+	                    '<i class="icon-%1$s fa fa-%1$s icon-2x fa-2x icon-rotate-90 fa-rotate-90"></i> <code>[icon name="%1$s" class="fa-2x fa-rotate-90"]</code> %2$s <code>&lt;i class="fa-%1$s fa-2x fa-rotate-90"&gt;&lt;/i&gt;</code><br /><br /><br />',
 	                    esc_html__(
 		                    'coffee',
 		                    'better-font-awesome'
@@ -579,9 +579,9 @@ class Better_Font_Awesome_Plugin {
 	                    '&raquo;</a></small><br/><br/>'
                     ) .
                     sprintf(
-	                    '<i class="icon-%$1s fa fa-%$1s"></i> <code>[icon name="%$1s"]</code> %$2s <code>&lt;i class="icon-%$1s"&gt;&lt;/i&gt;</code><br /><br />' .
-	                    '<i class="icon-%$1s fa fa-%$1s icon-2x fa-2x"></i> <code>[icon name="%$1s" class="icon-2x"]</code> %$2s <code>&lt;i class="icon-%$1s icon-2x"&gt;&lt;/i&gt;</code><br /><br />' .
-	                    '<i class="icon-%$1s fa fa-%$1s icon-2x fa-2x icon-rotate-90 fa-rotate-90"></i> <code>[icon name="%$1s" class="icon-2x icon-rotate-90"]</code> %$2s <code>&lt;i class="icon-%$1s icon-2x icon-rotate-90"&gt;&lt;/i&gt;</code>',
+	                    '<i class="icon-%1$s fa fa-%1$s"></i> <code>[icon name="%1$s"]</code> %2$s <code>&lt;i class="icon-%1$s"&gt;&lt;/i&gt;</code><br /><br />' .
+	                    '<i class="icon-%1$s fa fa-%1$s icon-2x fa-2x"></i> <code>[icon name="%1$s" class="icon-2x"]</code> %2$s <code>&lt;i class="icon-%1$s icon-2x"&gt;&lt;/i&gt;</code><br /><br />' .
+	                    '<i class="icon-%1$s fa fa-%1$s icon-2x fa-2x icon-rotate-90 fa-rotate-90"></i> <code>[icon name="%1$s" class="icon-2x icon-rotate-90"]</code> %2$s <code>&lt;i class="icon-%1$s icon-2x icon-rotate-90"&gt;&lt;/i&gt;</code>',
 	                    esc_html__(
 		                    'coffee',
 		                    'better-font-awesome'
