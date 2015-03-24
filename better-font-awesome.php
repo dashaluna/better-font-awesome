@@ -345,7 +345,6 @@ class Better_Font_Awesome_Plugin {
     public function create_admin_page() {
     ?>
         <div class="wrap">
-            <?php screen_icon(); ?>
             <h2><?php echo esc_html( $this->plugin_display_name ); ?></h2>
             <form method="post" action="options.php">
             <?php
