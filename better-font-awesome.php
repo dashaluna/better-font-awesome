@@ -128,13 +128,13 @@ class Better_Font_Awesome_Plugin {
      *
      * @return  Better_Font_Awesome  The BFA object.
      */
-    public static function get_instance( $args = '' ) {
-        static $instance = null;
-        if ( null === $instance ) {
-            $instance = new static( $args );
-        }
+    public static function get_instance() {
 
-        return $instance;
+	    if ( ! self::$instance ) {
+		    self::$instance = new self();
+	    }
+
+	    return self::$instance;
     }
 
     /**
@@ -142,7 +142,7 @@ class Better_Font_Awesome_Plugin {
      *
      * @since  0.9.0
      */
-    function __construct() {
+    private function __construct() {
 
         // Perform plugin initialization actions.
         $this->initialize();
