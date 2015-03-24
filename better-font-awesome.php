@@ -296,8 +296,8 @@ class Better_Font_Awesome_Plugin {
         
         $args = array(
             'version'             => isset( $options['version'] ) ? $options['version'] : $this->option_defaults['version'],
-            'minified'            => isset( $options['minified'] ) ? $options['minified'] : '',
-            'remove_existing_fa'  => isset( $options['remove_existing_fa'] ) ? $options['remove_existing_fa'] :'',
+            'minified'            => isset( $options['minified'] ) ? $options['minified'] : $this->option_defaults['minified'],
+            'remove_existing_fa'  => isset( $options['remove_existing_fa'] ) ? $options['remove_existing_fa'] : $this->option_defaults['remove_existing_fa'],
             'load_styles'         => true,
             'load_admin_styles'   => true,
             'load_shortcode'      => true,
