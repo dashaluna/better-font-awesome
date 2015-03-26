@@ -134,8 +134,8 @@ class Better_Font_Awesome_Plugin {
 			self::$instance = new static( $args );
 		}
 
-	    return self::$instance;
-    }
+		return self::$instance;
+	}
 
     /**
      * Better Font Awesome Plugin constructor.
