@@ -361,25 +361,25 @@ class Better_Font_Awesome_Plugin {
 	function add_settings() {
 
 		register_setting(
-			'option_group', // Option group
-			$this->option_name, // Option name
+			'option_group',            // Option group
+			$this->option_name,        // Option name
 			array( $this, 'sanitize' ) // Sanitize
 		);
 
 		add_settings_section(
 			'settings_section_primary', // ID
-			null, // Title
-			null, // Callback
-			self::SLUG // Page
+			null,                       // Title
+			null,                       // Callback
+			self::SLUG                  // Page
 		);
 
 		add_settings_field(
 			'version', // ID
 			__( 'Version', 'better-font-awesome' ), // Title
-			array( $this, 'version_callback' ), // Callback
-			self::SLUG, // Page
-			'settings_section_primary', // Section
-			$this->get_versions_list() // Args
+			array( $this, 'version_callback' ),     // Callback
+			self::SLUG,                             // Page
+			'settings_section_primary',             // Section
+			$this->get_versions_list()              // Args
 		);
 
 		add_settings_field(
