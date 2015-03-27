@@ -389,8 +389,11 @@ class Better_Font_Awesome_Plugin {
 			self::SLUG,
 			'settings_section_primary',
 			array(
-				'id' => 'minified',
-				'description' => __( 'Whether to include the minified version of the CSS (checked), or the unminified version (unchecked).', 'better-font-awesome' ),
+				'id'          => 'minified',
+				'description' => __(
+					'Whether to include the minified version of the CSS (checked), or the unminified version (unchecked).',
+					'better-font-awesome'
+				),
 			)
 		);
 
@@ -401,8 +404,11 @@ class Better_Font_Awesome_Plugin {
 			self::SLUG,
 			'settings_section_primary',
 			array(
-				'id' => 'remove_existing_fa',
-				'description' => __( 'Attempt to remove Font Awesome CSS and shortcodes added by other plugins and themes.', 'better-font-awesome' ),
+				'id'          => 'remove_existing_fa',
+				'description' => __(
+					'Attempt to remove Font Awesome CSS and shortcodes added by other plugins and themes.',
+					'better-font-awesome'
+				),
 			)
 		);
 
