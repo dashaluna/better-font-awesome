@@ -129,21 +129,21 @@ class Better_Font_Awesome_Plugin {
      *
      * @return  Better_Font_Awesome  The BFA object.
      */
-    public static function get_instance( $args = '' ) {
-        static $instance = null;
-        if ( null === $instance ) {
-            $instance = new static( $args );
-        }
+	public static function get_instance( $args = '' ) {
 
-        return $instance;
-    }
+		if ( ! self::$instance ) {
+			self::$instance = new static( $args );
+		}
+
+		return self::$instance;
+	}
 
     /**
      * Better Font Awesome Plugin constructor.
      *
      * @since  0.9.0
      */
-    function __construct() {
+    protected function __construct() {
 
         // Perform plugin initialization actions.
         $this->initialize();
